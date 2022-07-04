@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CDN Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid  " style="height: 100vh;">
+        <div class="row ">
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <div class="container-side " >
+                    <div class="container-cart " style="height: 200px;">
+                        <div class="section-pages container mx-auto">
+                            <a   href="../HTML/index.html" class="btn btn-warning mx-auto my-1">Home</a>
+                            <br>
+                            <!-- Logo Parseh -->
+                            <a href="../HTML/index.html"><img style="max-width: 100px;"  class="w-50 mx-auto" src="../logo/logo-parseh.png" alt="logo"></a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10">
+                <div class="container-side border " style="height: 100vh;">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                           <h3 class="m-5 text-secondary">Your Order</h3>
+                           <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">item</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Shrimp & Oysters</td>
+                                <td>28 $</td>
+                                <td>
+                                    <button class="bg-dark border-0 text-light" style="width:40px;">-</button> <span class="border px-3" style="width:40px;">5</span> <button class="bg-dark border-0 text-light" style="width:40px;">+</button>
+                                </td>
+                                <td>125 $</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Oyster soup</td>
+                                <td>10 $</td>
+                                <td><button class="bg-dark border-0 text-light" style="width:40px;">-</button> <span class="border px-3" style="width:40px;">2</span> <button class="bg-dark border-0 text-light" style="width:40px;">+</button></td>
+                                <td>20 $</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Shrimp the Vege</td>
+                                <td>14 $</td>
+                                <td>
+                                   <button class="bg-dark border-0 text-light" style="width:40px;">-</button> <span class="border px-3" style="width:40px;">1</span> <button class="bg-dark border-0 text-light" style="width:40px;">+</button>
+                                </td>
+                                <td>14 $</td>
+                              </tr>
+                              <hr>
+                              <div class="my-5">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Subtotal</th>
+                                        <!-- <th scope="col">First</th>
+                                        <th scope="col">Last</th> -->
+                                        <th scope="col" class="text-end mx-5">159 $ </th>
+                                      </tr>
+                                    </thead>
+                            
+                                  </table>
+                              </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="container-cart d-inline ">
+                              <div class="container-card bg-secondary d-inline" style="max-width:300px ; height: 150px;">
+                                <img style="max-width: 300px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.RPDVJkmpjB0vgtP4CslLjgHaFB%26pid%3DApi&f=1" alt="">
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="container-cart d-inline">
+                              <div class="container-info  "  style="max-width:208px ; height: 147px;">
+                                <input type="text" placeholder="name holder">
+                                <input type="text" placeholder="Card number">
+                                <input type="text" placeholder="Security code 123">
+                                
+                                <input type="submit" value="Add" style="background-color: green; border:none; width:50px; border-radius:8px; margin-top: 10px;">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+      </div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

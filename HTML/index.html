@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Restaurant</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!--        CDN  Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="" id="home">
+   <!--         NavBar       -->
+   <nav class=" navbar-expand-lg navbar-light " style="background-image:url(https://images.unsplash.com/photo-1458314363241-486d4ad8b58a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188) ; max-width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;" id="up" >
+     <div class="container-fluid ">
+       <a class="navbar-brand m-2 text-light" href="#">Parseh</a>
+       <button class="navbar-toggler border-light bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <a href="../HTML/register.html" class="btn-light px-2 py-1 rounded float-right me-5 mt-5">Register</a> 
+       <a href="../HTML/cart.html" class="btn-light px-2 py-1 rounded float-right me-1 mt-5"><img style="width:22px ;" src="https://cdn-icons-png.flaticon.com/512/4290/4290854.png" alt=""></a>
+   
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+         
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2  w-100 " style="z-index: 2000;">
+            <li class="nav-item">
+             <a class="nav-link active text-light" aria-current="page" href="../HTML/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link text-light" href="About.html" target="">About</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link text-light" href="#footer" tabindex="-1" aria-disabled="true">Address</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link text-light" href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+            <!-- Modal -->
+            <li>
+                <button type="button" class="btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Message</button>
+            </li>
+           <li class="nav-item">
+   
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <form>
+                       <div class="mb-3">
+                         <label for="recipient-name" class="col-form-label">Name:</label>
+                         <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                         <label for="recipient-name" class="col-form-label">Email:</label>
+                         <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                         <label for="message-text" class="col-form-label">Message:</label>
+                         <textarea class="form-control" id="message-text"></textarea>
+                       </div>
+                     </form>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Send message</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </li>
+   
+         </ul>
+       
+       </div>
+       <div class=" py-4 " style="z-index:1000 ;">
+         <h1 class="text-center text-light shadow-effects text-uppercase fs-1 fw-bolder py-5 my-5 "><span class="bg-primary px-2 rounded"><strong>Resturant</strong></span> <span class="bg-light px-2 rounded text-primary">Parseh</span> </h1>
+       </div>
+       <div class="section-pages container mx-auto" style="z-index: 3000;">
+         <a href="../HTML/index.html" class="btn btn-warning mx-auto my-1">Home</a>
+         <a href="../HTML/Appetizer.html" class="btn btn-light mx-auto my-1">Appetizers</a>
+         <a href="../HTML/Barbecue.html" class="btn btn-light mx-auto my-1">Barbecue</a>
+         <a href="../HTML/seafood.html" class="btn btn-light mx-auto my-1">Seafood</a>
+         <a href="../HTML/Desserts.html" class="btn btn-light mx-auto my-1">Desserts</a>
+         <a href="../HTML/menu.html" class="btn btn-danger mx-auto my-1">Menu burger</a>
+       </div>
+     </div>
+   </nav>
+
+
+  <!-- Slid Photo -->
+  <div id="carouselExampleControls " class="carousel slide w-75 h-auto  mx-auto my-5 d-none d-sm-block" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img  src="https://razorpay.com/learn-content/uploads/2020/04/contactless-delivery-1.png" class=" w-10  mx-auto img-fluid img-responsive d-block" alt="soup" style="max-width: 70%; height: 400px;" >
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwyNnx8d2luZXxlbnwwfHx8fDE2NTI4Nzg3MTQ&ixlib=rb-1.2.1&q=80&w=1080" class=" w-100  mx-auto img-fluid img-responsive d-block" alt="wine" style="max-width: 70%; height: 400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1516557977083-86bf43fe24ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwxfHxkZXNzZXJ8ZW58MHx8fHwxNjUyODc4ODQ3&ixlib=rb-1.2.1&q=80&w=1080" class=" w-100 mx-auto img-fluid img-responsive d-block" alt="desser" style="max-width: 70%; height: 400px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Gallery -->
+  <!-- container -->
+ <div class="container ">
+  <!-- Row 1 -->
+    <div class="row align-content-center my-5 ">
+      <!-- 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1 ">
+        <div class="card m-auto" style="width: 17rem;">
+          <img src="https://images.unsplash.com/photo-1632181933699-d45280e5c7de?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">q</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../HTML/reservation.html" class="btn btn-primary">reservation</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 17rem;">
+          <img src="https://images.unsplash.com/photo-1533052286801-2385cb274342?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Parseh</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../HTML/reservation.html" class="btn btn-primary">reservation</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 17rem;">
+          <img src="https://free-images.com/lg/9b0e/restaurant_gastronomy_koblenz_human.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Parseh</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../HTML/reservation.html" class="btn btn-primary">reservation</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 17rem;">
+          <img src="https://free-images.com/lg/a946/gastronomy_restaurant_seerestaurant_6893.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Restaurant Parseh</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../HTML/reservation.html" class="btn btn-primary">reservation</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- end Card -->
+    </div>
+    <!-- END Row 1 -->
+    <hr>
+    <h3 class="text-center text-light my-5">Seafood</h3>
+    <!-- Row 2 -->
+    <div class="row align-content-center">
+      <!-- 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://free-images.com/lg/9372/seafood_in_pastry.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5><span>15 $</span>
+            <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://free-images.com/lg/dd03/seafood_viktualienmarkt_dsc08593.jpg" class="card-img-top" alt="...">
+          <div class="card-body mx-sm-auto">
+            <h5 class="card-title">Octopus</h5><span>20 $</span>
+            <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://free-images.com/lg/400d/seafood_noodles_daebudo_food.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Crab</h5><span>19 $</span>
+            <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://free-images.com/lg/de50/soup_prawn_noodles_food.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Shrimp</h5><span>12 $</span>
+            <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- end Card -->
+    </div>
+    <hr>
+    <!-- END Row 2 -->
+    <h3 class="text-center text-light  my-5">Barbecue</h3>
+       <!-- Row 3 -->
+       <div class="row align-content-center">
+        <!-- 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+          <div class="card m-auto" style="width: 18rem;">
+            <img src="https://free-images.com/lg/61c8/barbecue_chicken_wings_13264.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5><span>13 $</span>
+              <p class="card-text">build on the card title and make up the bulk of the card's content.</p>
+              <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+          <div class="card m-auto" style="width: 18rem;">
+            <img src="https://free-images.com/lg/3d8d/barbecue_coal_embers_tomato_2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5><span>18 $</span>
+              <p class="card-text"> on the card title and make up the bulk of the card's content.</p>
+              <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+          <div class="card m-auto" style="width: 18rem;">
+            <img src="https://free-images.com/lg/d7a0/barbecue_grill_grilled_meats_0.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5><span>22 $</span>
+              <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+              <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+          <div class="card m-auto" style="width: 18rem;">
+            <img src="https://free-images.com/lg/6ca7/porterhouse_steaks_grilling_barbecue.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5><span>27 $</span>
+              <p class="card-text">build on the card title and make up the bulk of the card's content.</p>
+              <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- end Card -->
+      </div>
+      <!-- END Row 3 -->
+      <hr>
+    <h3 class="text-center text-light  my-5">Desser</h3>
+
+      
+         <!-- Row 4 -->
+    <div class="row align-content-center">
+      <!-- 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://img.freepik.com/free-photo/tasty-homemade-tiramisu-cake_114579-85350.jpg?t=st=1652970081~exp=1652970681~hmac=c3c138a200bd3b41325b39c37f8b7782024cfb90e0acde4eb51f1e4a8312350c&w=1060" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5><span>8 $</span>
+            <p class="card-text">build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://img.freepik.com/free-photo/piece-cheesecake_1112-165.jpg?t=st=1652970081~exp=1652970681~hmac=7dadbd3eb5213895e26da91677af762cafcbf6f6f0161eb3fcbc1d8ead59c4c6&w=1060" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5><span>6 $</span>
+            <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://img.freepik.com/free-photo/belgium-waffles-with-strawberries-ice-cream-white-plate_2829-13952.jpg?t=st=1652970081~exp=1652970681~hmac=2590e296ce0ca42c551037ec0e64acb21676c3b320c946b440afcb4d4ad7308d&w=1060" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5> <span>9 $</span>
+            <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 my-1">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="https://img.freepik.com/free-photo/delicious-tiramisu-cake-with-fresh-berries-mint-plate_78677-43.jpg?w=1060" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5> <span>10 $</span>
+            <p class="card-text">build on the card title and make up the bulk of the card's content.</p>
+            <button class="w-25 rounded border-0 bg-warning text-light">-</button><span class="px-2">0</span><button class="w-25 rounded border-0 bg-success text-light">+</button> <button class="border-0 px-2 mx-3 bg-primary rounded text-light">Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- end Card -->
+    </div>
+    <!-- END Row 4 -->
+
+    <!-- Container -->
+  </div>
+  <a href="#up" class="btn btn-light"><img style="width: 18px;" class="mx-2" src="https://img.icons8.com/external-kmg-design-flat-kmg-design/344/external-up-arrow-kmg-design-flat-kmg-design.png" alt="">Up</a>
+
+  <!--      Footer     -->
+  <footer class="bg-dark text-center text-lg-start p-4" id="footer">
+   
+      <!-- Map -->
+      <div class="row container mx-auto">
+        <div class="col-sm-12 col-md-6 col-lg-4 ">
+            <div class="container-address text-start ">
+              <ul class="text-light list-unstyled ">
+                <li><p class="text-light">Address :</p></li>
+                <li class="">Rue de lilas n° 696</li>
+                <li><img src="../logo/logo-parseh.png" style="width: 100px;" alt=""></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="container-contact text-start ">
+              <ul class="list-unstyled text-light">
+                <li><p class="text-light">Contact :</p></li>
+                <li>tell : 023145698</li>
+                <li>tell : 125698745</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="container-map text-start ">
+                <p class="text-light">Map :</p>
+                <iframe class=""  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20157.532935539723!2d4.367939099999999!3d50.8368758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1snl!2sbe!4v1652882375316!5m2!1snl!2sbe" max-width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </div>
+      </div>
+     
+      
+     
+   
+  </footer>
+  <!-- End Footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
